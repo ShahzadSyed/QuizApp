@@ -29,7 +29,9 @@ An interactive quiz application built using **HTML**, **CSS**, and **JavaScript*
 ## 📸 Demo
 
 ![Quiz App Screenshot](assets/Login.JPG)
-![Quiz App Screenshot](assets/QuizLook.jpg)
+
+![Quiz App Screenshot](assets/QuizLook.JPG)
+
 ![Quiz App Screenshot](assets/QuizAppReportCard.jpg)
 
 
