@@ -28,11 +28,11 @@ An interactive quiz application built using **HTML**, **CSS**, and **JavaScript*
 
 ## 📸 Demo
 
-![Quiz App Screenshot](assets/Login.JPG)
+![Login](assets/Login.JPG)
 
-![Quiz App Screenshot](assets/QuizLook.JPG)
+![Quiz Look](assets/QuizLook.JPG)
 
-![Quiz App Screenshot](assets/QuizAppReportCard.jpg)
+![Quiz App Report](assets/QuizAppReportCard.JPG)
 
 
 ## ▶️ How to Run
