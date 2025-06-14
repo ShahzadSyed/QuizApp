@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body onload="uiRender(); handleUserDetail()">
+
+  <div class="container">
+    <!-- Start Screen -->
+    <!-- <div id="start-screen" class="screen active">
+      <h1>Welcome to the Quiz!</h1>
+      <button id="start-btn" class="btn">Start Quiz</button>
+    </div> -->
+
+    <!-- Quiz Screen -->
+
+    
+    <div class="QuizContainer">
+      <!--Header-->
+      <div class="QuizHeader">
+      <p id="userName">name: shahzad</p>
+      <p id="userEmail">gmail:syedshahzad@gmail.com</p>
+      </div>
+      <div>
+        <p ></p>
+      </div>
+      
+      <div class="quiz-header">
+        <h2 id="question"> </h2>
+        <ul  class="options"  id="options">
+          <!-- <li class="option-btn">Hyper Text Markup </li>
+          <li class="option-btn">Hyper Text  Language</li>
+          <li class="option-btn">Hyper Text  Language</li>
+          <li class="option-btn">Hyper Text  Language</li> -->
+        </ul>
+      </div>
+
+      <div class="QuizFooter">
+        <div class="navigation">
+        <button disabled id="nextbtn" class="btn" onclick="nextQuestion()">Next</button>
+        </div>
+        <div class="navigation" id="count">
+        1/10
+        </div>
+      </div>
+      
+    </div>
+    
+      <!-- <div class="quiz-header" id="options">
+        <h2 id="question">HTML stands for?</h2>
+        <ul  class="options">
+          <li class="option-btn">Hyper Text Markup Language</li>
+          <li class="option-btn">Hyper Text Programming Language</li>
+          <li class="option-btn">Hyper Text Styling Language</li>
+          <li class="option-btn">Hyper Text Scripting Language</li>
+        </ul>
+      </div> -->
+      
+      
+    
+
+    <!-- Result Screen -->
+    <div id="result-screen" class="screen">
+      <h2>Quiz Completed!</h2>
+      <p id="score">Your score: 0/0</p>
+      <button id="restart-btn" class="btn">Restart Quiz</button>
+    </div>
+  </div>
+
+</body>
+<script src="quizApp.js"></script>
+</html>
